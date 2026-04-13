@@ -19,7 +19,8 @@ plt.show()
 ```
 
 ### Results
-![Visualization of Top Skills for Data Nerds](3_Project\images\skill_demand_all_data.png)
+<img width="622" height="472" alt="skill_demand_all_data" src="https://github.com/user-attachments/assets/812bfdab-fbb7-4e1f-9aab-94c4b4ac2ae8" />
+
 
 ### Insights
 
@@ -51,7 +52,8 @@ ax.yaxis.set_major_formatter(PercentFormatter(decimals=0))
 for i in range(5):
     plt.text(11.2,df_plot.iloc[-1, i], df_plot.columns[i])
 ```
-![Trending Top skills for Data Analysts in the US](3_Project\images\skill_trend.png)
+<img width="629" height="457" alt="skill_trend" src="https://github.com/user-attachments/assets/9ee46c2b-9b7f-472a-864f-a989086079a3" />
+
 *Bar graph visualizing the trending top skills for data anlaysts in the US in 2023.*
 
 ### Insights:
@@ -80,7 +82,8 @@ plt.show()
 ```
 
 #### Results
-![Salary Distributions of Data Jobs in the US](3_Project\images\Salary_analysis.png)
+<img width="692" height="459" alt="Salary_analysis" src="https://github.com/user-attachments/assets/32c055a0-5c6c-46df-b686-7c5e7b5da422" />
+
 
 *Box plot visualizing the salary distribution for the top 6 data job titles*
 
@@ -118,7 +121,8 @@ ax[1].xaxis.set_major_formatter(plt.FuncFormatter(lambda x,_ : f'{int(x/1000)}K'
 fig.tight_layout()
 ```
 
-![The Highest Paid & Most In-Demand Skills for Data Analyst in the US](3_Project\images\Highest_Paid_In_Demand_Skills.png)
+<img width="623" height="463" alt="Highest_Paid_In_Demand_Skills" src="https://github.com/user-attachments/assets/9ac7d9db-d8e0-4772-8a3b-4310700a200b" />
+
 *Two seperate bar graphs visualizing the highest paid skills and most in-demand skills for data analysis in the US*
 
 ## Insights
@@ -133,8 +137,8 @@ fig.tight_layout()
 
 #### Results
 
-![Most Optimal Skills for Data Analysts in the US]
-(3_Project\images\Optimal_skills_for_Data_analyst.png)
+<img width="623" height="464" alt="Optimal_skills_for_Data_analyst" src="https://github.com/user-attachments/assets/db0b33af-fd13-4171-bdfb-d8755a49226f" />
+
 *A scatter plot visualizing the most optimal skills (high paying & high demand) for data analysts in the US.*
 
 #### Insights:
@@ -143,3 +147,56 @@ fig.tight_layout()
 - Analyst tools (colored green), including Tableau and Power BI, are prevalent in job postings and offer competitive salariesm showing that visalization and data analysts software crucial for current data roles. This category not only has good salaries but is also versatile across different types fo data tasks.
 
 - The database skills (colored orange), such as Oracle and SQL Server, are associated with some of the highest salaries among data analyst tools. This indicates a significant demand and valuation for data amangement and manipulation expertise in the industry.
+
+## 🔹 Excel Analysis
+
+### 📌 Overview
+Excel was used for initial data cleaning, transformation, and exploratory analysis. It helped in identifying trends, summarizing datasets, and validating insights before moving to advanced tools.
+
+### ⚙️ Key Tasks Performed
+- Cleaned and structured raw datasets (handled missing values and duplicates)
+- Used Pivot Tables to analyze:
+  - Job role distribution
+  - Skill demand frequency
+  - Salary trends
+- Applied conditional formatting for quick pattern recognition
+- Performed basic statistical analysis (averages, counts, comparisons)
+
+### 📈 Key Insights
+- Data Analyst roles show consistent demand across datasets
+- Salary ranges vary significantly depending on role and experience
+- Foundational tools like Excel and SQL dominate job requirements
+- Pivot-based summaries helped quickly identify top skills and trends
+
+---
+
+## 🔹 Power BI Dashboard
+
+### 📌 Overview
+Power BI was used to build interactive dashboards for visualizing job market trends, salary distributions, and skill demand.
+
+### ⚙️ Key Features
+- Data modeling with relationships between tables
+- Created DAX measures for KPI calculations
+- Built interactive dashboards with filters and slicers
+- Enabled drill-down analysis for deeper insights
+- Designed visuals for clear data storytelling
+
+### 📊 Dashboard Components
+- Salary distribution by job role
+- Top skills by demand
+- Job trends across different regions
+- KPI indicators (average salary, total jobs)
+
+### 📈 Key Insights
+- Data Scientists and Data Engineers have higher salary potential compared to Data Analysts
+- SQL and Python are consistently the most demanded skills
+- Visualization tools like Power BI and Tableau are essential for analytics roles
+- Salary trends vary based on location and specialization
+
+### 🖼️ Dashboard Visuals
+
+
+<img width="1489" height="805" alt="image" src="https://github.com/user-attachments/assets/48de8fc9-8881-425d-8524-de4862126b3b" />
+
+<img width="1423" height="800" alt="image" src="https://github.com/user-attachments/assets/f3447b98-ec77-4a84-9f2f-23a79ab9b702" />
